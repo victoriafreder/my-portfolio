@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 60px;
+  margin-left: 30px;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  height: 200px;
+  float: left;
+  margin-left: 30px;
+}
+
+#intro {
+  text-align: center;
+}
+
+#about-me, #profile {
+  width: 40%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+#profile a {
+  
+}

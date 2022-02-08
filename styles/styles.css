@@ -1,3 +1,5 @@
+/*UNIVERSAL STYLES*/
+
 * {
   box-sizing: border-box;
 }
@@ -7,6 +9,43 @@ body {
   margin-left: 30px;
   font-family: 'Nunito', sans-serif;
 }
+
+/*NAVBAR STYLES*/
+
+nav {
+  background-color: #b8405e;
+  font-weight: 700;
+}
+
+.navbar-brand {
+  font-size: 26px;
+}
+
+nav a {
+  color: #eee6ce;
+}
+
+.nav-link {
+  color: #313552;
+}
+
+.nav-link:hover, nav a:hover {
+  color: #eee6ce;
+}
+
+.navbar-toggler{
+  width: 47px;
+  height: 34px;
+  background-color: inherit;
+  }
+
+.navbar-toggler .line{
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: #eee6ce;
+  margin-bottom: 5px;
+  }
 
 p {
   text-align: center;

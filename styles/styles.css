@@ -9,6 +9,18 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
+.light-section-title {
+  color: #eee6ce;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px auto 40px auto;
+}
+
+.light-background {
+  background-color: #eee6ce;
+  padding: 30px;
+}
+
 /*NAVBAR STYLES*/
 
 nav {
@@ -50,7 +62,7 @@ nav a {
 
 header {
   background-color: #eee6ce;
-  padding: 5% 5% 10%;
+  padding: 5%;
 }
 
 header img {
@@ -77,11 +89,23 @@ header img {
   margin: 150px auto 0 auto;
 }
 
-#about-me, #profile {
-  width: 40%;
-  margin: auto;
-  padding: 50px 0;
+/*ABOUT ME SECTION*/
+
+#about-me {
+  background-color: #b8405e;
+  padding: 30px;
 }
+
+#about-me p {
+  color: #313552;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+
+
+
+
 
 .card img {
   height: 200px;

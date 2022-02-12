@@ -242,6 +242,12 @@ footer img {
   display: block;
 }
 
+@media screen and (max-width: 575px) {
+  footer {
+    padding: 30px 0;
+  }
+}
+
 /*****ASIDE CREDITS SECTION*****/
 aside {
   background-color: #eee6ce;

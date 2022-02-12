@@ -91,8 +91,20 @@ header img {
 #intro button {
   background-color: #313552;
   color: #eee6ce;
-  display:block;
+  display: block;
   margin: 150px auto 0 auto;
+}
+
+@media screen and (max-width: 650px) {
+  header img {
+    float: none;
+    display: block;
+    margin: 20px auto 0 auto;
+  }
+  
+  #intro button {
+    margin: 20px auto 0 auto;
+  }
 }
 
 /*ABOUT ME SECTION*/

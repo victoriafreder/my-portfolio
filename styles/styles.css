@@ -10,14 +10,14 @@ body {
 }
 
 .light-section-title {
-  color: #eee6ce;
+  color: #ffffff;
   font-weight: 700;
   text-align: center;
   padding: 20px;
 }
 
 .light-background {
-  background-color: #eee6ce;
+  background-color: #ffffff;
   padding: 30px;
 }
 
@@ -35,11 +35,12 @@ nav {
 }
 
 .navbar-brand {
-  font-size: 26px;
+  font-size: 40px;
+  font-family: 'Pacifico', cursive;
 }
 
 nav a {
-  color: #eee6ce;
+  color: #ffffff;
 }
 
 .nav-link {
@@ -47,7 +48,7 @@ nav a {
 }
 
 .nav-link:hover, nav a:hover {
-  color: #eee6ce;
+  color: #ffffff;
 }
 
 .navbar-toggler{
@@ -60,21 +61,21 @@ nav a {
   width: 100%;
   float: left;
   height: 2px;
-  background-color: #eee6ce;
+  background-color: #ffffff;
   margin-bottom: 5px;
   }
 
 /*HEADER STYLES*/
 
 header {
-  background-color: #eee6ce;
+  background-color: #ffffff;
   padding: 5%;
 }
 
 header img {
-  border-radius: 360px;
+  /* border-radius: 360px; */
   float: left;
-  width: 30%;
+  width: 25%;
   height: auto;
 }
 
@@ -90,7 +91,7 @@ header img {
 
 #intro button {
   background-color: #313552;
-  color: #eee6ce;
+  color: #ffffff;
   display: block;
   margin: 150px auto 0 auto;
 }
@@ -111,7 +112,7 @@ header img {
 
 #about-me {
   background-color: #b8405e;
-  padding: 30px;;
+  padding: 50px;
 }
 
 #about-me h2 {
@@ -120,6 +121,7 @@ header img {
 
 #about-me p {
   color: #313552;
+  font-size: 1.2em;
   font-weight: 700;
   margin-bottom: 0;
 }
@@ -127,6 +129,7 @@ header img {
 /*EXPERIENCE SECTION*/
 #experience {
   background-color: #b8405e;
+  padding-top: 50px;
   padding-bottom: 20px;
 }
 
@@ -147,7 +150,7 @@ header img {
   content: '';
   position: absolute;
   width: 6px;
-  background-color: #eee6ce;
+  background-color: #ffffff;
   top: 0;
   bottom: 0;
   left: 60px;
@@ -173,7 +176,7 @@ header img {
   width: 50px;
   height: 50px;
   left: 5px;
-  background-color: #eee6ce;
+  background-color: #ffffff;
   border:none;
   top: 0;
   border-radius: 50%;
@@ -186,7 +189,7 @@ header img {
 .content {
   padding: 5px 30px 10px 50px;
   position: relative;
-  color:#eee6ce;
+  color:#ffffff;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -216,8 +219,8 @@ header img {
 
 /*********PROJECTS SECTION**********/
 #projects {
-  background-color: #eee6ce;
-  padding: 30px;
+  background-color: #ffffff;
+  padding: 60px;
 }
 
 #projects h2 {
@@ -250,7 +253,7 @@ footer img {
 
 /*****ASIDE CREDITS SECTION*****/
 aside {
-  background-color: #eee6ce;
+  background-color: #ffffff;
   padding: 10px 0;
 }
 

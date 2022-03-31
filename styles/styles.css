@@ -37,6 +37,7 @@ nav {
 .navbar-brand {
   font-size: 40px;
   font-family: 'Pacifico', cursive;
+  font-weight: 400;
 }
 
 nav a {
@@ -75,7 +76,7 @@ header {
 header img {
   /* border-radius: 360px; */
   float: left;
-  width: 25%;
+  width: 30%;
   height: auto;
 }
 

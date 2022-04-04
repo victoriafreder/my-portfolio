@@ -79,10 +79,10 @@ header {
   padding: 5%;
 }
 
-header img {
+#intro img {
   /* border-radius: 360px; */
   float: left;
-  width: 30%;
+  width: 40%;
   height: auto;
 }
 
@@ -219,6 +219,9 @@ header img {
 #skills{
   padding: 10px 30px;
   background-color: #b8405e;
+  color: #313552;
+  font-size: 1.2em;
+  font-weight: 700;
 }
 
 #skills img {

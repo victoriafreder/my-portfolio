@@ -40,6 +40,12 @@ nav {
   font-weight: 400;
 }
 
+@media screen and (max-width: 650px) {
+  .navbar-brand {
+    font-size: 20px;
+  }
+}
+
 nav a {
   color: #ffffff;
 }
@@ -101,7 +107,9 @@ header img {
   header img {
     float: none;
     display: block;
-    margin: 20px auto 0 auto;
+    margin: 0 auto;
+    width: 75%;
+    height: auto;
   }
   
   #intro button {
